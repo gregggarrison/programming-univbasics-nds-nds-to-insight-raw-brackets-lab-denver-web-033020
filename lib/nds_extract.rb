@@ -13,12 +13,12 @@ def directors_totals(nds)
       result[director] += nds[director_index][:movies][movie_index][:worldwide_gross]
       movie_index += 1
     end
-    director_index += 1
+    director_index += 1 
   end
   result
 end
   
-  
+  # I DEF CHEATED ON THIS ONE AS WELL....Í
   
   
   
