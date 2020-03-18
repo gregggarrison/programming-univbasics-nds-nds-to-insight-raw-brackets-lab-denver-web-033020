@@ -3,8 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   nil
-
-result = {}
+  result = {}
   director_index = 0
   while director_index < nds.length do
     director = nds[director_index][:name]
